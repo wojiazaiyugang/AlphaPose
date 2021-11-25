@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:1.9.1-cuda11.1-cudnn8-devel
+FROM pytorch/pytorch:1.4-cuda10.1-cudnn7-devel
 
 ENV PATH=/usr/local/cuda/bin/:$PATH
 ENV LD_LIBRARY_PATH=/usr/local/cuda/lib64/:$LD_LIBRARY_PATH
